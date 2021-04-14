@@ -73,36 +73,42 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-╭════•›「 ${conn.getName(conn.user.jid)} 」
-╿  Hai, %name !
-╿ Total : *%exp XP*
-╿ Tersisa : *%limit Limit*
-╿
-╿ Hari : *%week*
-╿ Tanggal : *%date*
-╿ Waktu : *%time*
-╿ Lama Aktif : *%uptime*
-╿ Database : %totalreg Nomor
-╰═══════════════
+╔══🧚🏿‍♂️›「 ${conn.getName(conn.user.jid)} 」═☬
+║Hai, %name !
+║ Total : *%exp XP*
+║ Tersisa : *%limit Limit*
+║
+║ Hari : *%week*
+║ Tanggal : *%date*
+║ Waktu : *%time*
+║ Lama Aktif : *%uptime*
+║ Database : %totalreg Nomor
+╚═════════════════☬
 
-╭════•›「 Sosmed 」
-╿ Github :
-╿ https://github.com/Arya274/Arya-BOT4
-╿ Youtube : Drawl Nag
-╿ Instagram : @arpunchs
-╰═══════════════
+╔══🧚🏿‍♂️›「 Sosmed 」
+║
+║ Youtube : Aing Ang
+║ Instagram : @aingang028
+║
+╚═════════════════☬
 
-╭════•›「 Rules 」
-╿• Telpon/VC = BAN/BLOKIR
-╿• Spam = BLOKIR
-╿• Ingin Donasi ?
-╿    => Hubungi #creator
-╰═══════════════
+╔═════════════════☬
+║⸨𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝒆⸩
+║▬▭▬▭▬▭▬▭▬▭
+║🧚🏿‍♂️⧐ ⸨ *Spam : Auto Block!* ⸩
+║🧚🏿‍♂️⧐ ⸨ *Beri Jeda 6detik!* ⸩
+║🧚🏿‍♂️⧐ ⸨ *Error Harap Cht Owner!* ⸩
+║🧚🏿‍♂️⧐ ⸨ *Jangan Bandingkan Bot* ⸩
+║🧚🏿‍♂️⧐ ⸨ *Ketik ${prefix}help* ⸩
+║🧚🏿‍♂️⧐ ⸨ *Jangan Vc/Call!* ⸩
+║🧚🏿‍♂️⧐ ⸨ *Gunakan Dengan Ramah* ⸩
+║▬▭▬▭▬▭▬▭▬▭
+╚═════════════════☬
 
 %readmore`
-    let header = conn.menu.header || '╭════•›「 %category 」'
-    let body   = conn.menu.body   || ' ╿ %cmd%islimit'
-    let footer = conn.menu.footer || '╰══════════\n'
+    let header = conn.menu.header || '┏━━⊱ 🧚🏿‍♂️❰ *%category* ❱ 🧚🏿‍♂️⊰━━☬'
+    let body   = conn.menu.body   || '┣🧚🏿‍♂️%cmd%islimit'
+    let footer = conn.menu.footer || '┗━━⊱  ⸨ *${conn.getName(conn.user.jid)}* ⸩  ⊰━━━☬\n'
     let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered bye\nBOT NFQ: ${global.conn.user.jid.split`@`[0]}`) + `\n*RECODE: DRAWL NAG*\nDEVELOPER: *@Nurutomo*`
     let _text  = before + '\n'
     for (let tag in groups) {

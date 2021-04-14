@@ -1,17 +1,23 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-Syarat dan Ketentuan Bot *KAMI*
-1. Teks dan nama pengguna WhatsApp anda akan kami simpan di dalam server selama bot aktif
-2. Data akan di hapus ketika bot Offline
-3. Kami tidak menyimpan gambar, video, file, audio, dan dokumen yang anda kirim
-4. Kami tidak akan pernah meminta anda untuk memberikan informasi pribadi
-5. Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot
-6. Juga kalau kalian ingin buat TUTORIAL BOT Langsung Lewat
-     ➥ YouTube: https://www.youtube.com/c/DrawlNag
-6. Apapun yang anda perintah pada bot ini, KAMI TIDAK AKAN BERTANGGUNG JAWAB!
+*RULES BAGI PENGGUNA BINALDARI BOT*
+    
+➤ Tolong Gunakan Delay Jangan Spam Saat Menggunakan Bot, Mentang Mentang Gratis Diborong semua. Hp gw ngelag Anj!
+➤ Call/VC Bot Auto Block.
+➤ Jangan Call/VC Bot Kalau Tidak aktif.
+➤ Bot tidak aktif 24 jam, jadi tergantung kalau ownernya lagi ada waktu botnya juga on.
 
-Thanks !
-2021©Drawl Nag
+*Konsekuensi Bila Melanggar Rules*
+Bot Akan Memblokir Kamu Atau Keluar Dari Grup Yang Kamu Kelola.
+━━━━━━━[ *PENTING!* ]━━━━━━━━
+*➤ Kami tidak pernah meminta anda untuk* berdonasi! ingin donasi chat owner
+*➤ Kami tidak menyimpan gambar, video,  audio, dan dokumen yang anda kirim*
+*➤ Kami tidak akan pernah meminta anda untukmemberikan informasi pribadi*
+*➤ Jika menemukan Bug/Error silahkan langsung lapor ke Owner bot*
+*➤  Jika kamu menelpon bot Dan di block,Owner Tidak Bertanggung Jawab*
+*➤ Apapun yang anda perintah pada bot ini , KAMI TIDAK AKAN BERTANGGUNG JAWAB*
+━━━━━━━━━━━━━━━━━━━━━━━━
+*TERIMAKASIH*(~￣³￣)~
 `.trim(), m)
 }
 handler.help = ['rules']

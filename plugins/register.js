@@ -20,15 +20,16 @@ User kamu Dibawah 👇
            │ ABOUT YOU WITH BOT │
            └───────────────╝
            
-╭⋆⃟⊱๑⋆⃟⊱๑⋆⃟⊱❉ [ *INFO* ] ❉๑⋆⃟⊱๑๑⋆⃟╮
-│ ➢ Nama: ${name}
-│ ➢ Umur: ${age}Tahun
-│ ➢ SN: ${sn}
-│ ➢ Command To Help *_#menu_*
+┏━━⊱ 🧚🏿‍♂️❰ *INFO* ❱ 🧚🏿‍♂️⊰━━☬
+┣𖥻ꦼꦽ➳ Nama: ${name}
+┣𖥻ꦼꦽ➳ Umur: ${age}Tahun
+┣𖥻ꦼꦽ➳SN: ${sn}
+┣𖥻ꦼꦽ➳Command To Help *_#menu_*
 │
-╰➢ Follow Instagram: *@arpunchs*
-╰➢  YouTube: *Drawl Nag*
-╰━⋆⃟⊱๑⋆⃟⊱๑ ⋆⃟⊱๑⋆⃟⊱๑⋆⃟⊱๑⋆⃟⊱๑๑⋆⃟╯
+┣𖥻ꦼꦽ➳Follow Instagram: *@aingang028*
+┣𖥻ꦼꦽ➳ YouTube: *Aing Ang*
+│
+┗━━⊱  ⸨ *TERIMAKASIH* ⸩  ⊰━━━☬
 `.trim())
 }
 handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')

@@ -18,6 +18,7 @@ let handler = async (m, { conn, command, text, isPrems, isOwner }) => {
 *Title:* ${title}
 *Filesize:* ${filesizeF}
 *Source:* ${vid.url}
+*Kalem Ya Lurd lagi di Download🧚🏿‍♂️
 `.trim(), m)
 }
 handler.help = ['play', 'play2'].map(v => v + ' <pencarian>')

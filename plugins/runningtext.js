@@ -2,7 +2,7 @@ let handler = async (m, { conn, text }) => {
   let q
   try { q = m.quoted.download() }
   catch (e) { q = m.download() }
-  m.reply('_Sedang membuat..._\n*Mohon tunggu sekitar 1 menit*')
+  m.reply('*DALAM PROSES* \n*Mohon tunggu sekitar 1 Juta Tahun lagi...(~￣³￣)~*')
   running(await q).then(vid => conn.sendFile(m.chat, vid, 'run.mp4', '*© Nurutomo*\nMade with FFmpeg', m))
 }
 handler.help = ['run']

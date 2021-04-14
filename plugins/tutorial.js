@@ -1,27 +1,29 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   conn.reply(m.chat, `
-Tutorial Buat Bot WA:
-Credit: *~Drawl Nag*
-
-Ketik di *[TERMUX]*
-1) $pkg install git
-2) $pkg install ffmpeg
-3) $pkg install imagemagick
-4) $pkg install nodejs
-
-Untuk Githubnya..
-5) $git clone https://github.com/Arya274/Arya-BOT4
-6) $ls
-7) $cd Arya-BOT4
-
-yang *terakhirr*..
-Penginstalannya cuy :)
-8) npm i
-9) node index.js
-
-_Bisa kalian liat tutorialnya di_
-*Youtube kami:*
-https://www.youtube.com/c/DrawlNag
+*TUTORIAL MENGGUNAKAN BINALDARI BOT*
+ 🧚🏿‍♂️pastikan kalian sudah daftar di Binaldari Bot caranya, ketik !daftar nama.umur
+        â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Kalo gak paham tuh baca dulu -_-
+         â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+âž¸ *${prefix}sticker*
+Kirim gambar/video dengan caption sticker
+âž¸ *${prefix}ttp*
+Text to sticker contoh : ${prefix}ttp Ang Ganteng
+*nb keknya error
+âž¸ *${prefix}tts*
+Suara google contoh : ${prefix}tts Ang Ganteng banget
+âž¸ *${prefix}toimg*
+Reply sticker yang mau dijadiin image
+âž¸ *${prefix}nulis*
+Untuk menulis dibuku
+âž¸ *${prefix} bucin*
+Random Bucin
+âž¸ *${prefix}play*
+Mendownload lagu dari youtube bisa menggunakan text atau link
+         â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Note : Sisanya gunain otak kalian aja cape w jelasin :)
+         â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+ðŸ”° -----[ *TUTOR BY ANG* ]----- ðŸ”°
 `.trim(), m)
 }
 handler.help = ['tutorial']

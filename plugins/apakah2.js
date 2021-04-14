@@ -11,14 +11,14 @@ let handler = async (m, { conn, command, text }) => {
 handler.help = ['apakah <pertanyaan>']
 handler.tags = ['kerang']
 handler.command = /^apakah$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
+handler.owner = true
+handler.mods = true
+handler.premium = true
+handler.group = true
+handler.private = true
 
-handler.admin = false
-handler.botAdmin = false
+handler.admin = true
+handler.botAdmin = true
 
 handler.fail = null
 
